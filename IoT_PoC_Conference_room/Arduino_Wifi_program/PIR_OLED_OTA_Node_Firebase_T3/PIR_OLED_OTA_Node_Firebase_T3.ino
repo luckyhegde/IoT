@@ -223,7 +223,6 @@ void loop(){
     delay(100);
     // clear the screen
   Motiondetect();
-  ReadState();
   delay(1000);}
   else
   {  Serial.println("Kindly check Sensor ");
@@ -235,3 +234,4 @@ void loop(){
   delay(500);
   display.clearDisplay();}
   }
+  
